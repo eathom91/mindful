@@ -1,0 +1,50 @@
+.signupForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupForm > label {
+    color: #6D523D;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.signupForm > button {
+    background-color: #FFF;
+    color: #000;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    border: solid 1px #6D523D;
+    border-radius: 4px;
+    padding: 10px;
+    border-style: solid;
+    margin-top: 20px;
+}
+
+.signupForm >  input {
+    padding: 5px 0;
+    margin-top: 8px;
+}
+
+.signupForm > button:hover {
+    background-color: #6D523D;
+    color: #FFF;
+}
+
+.form__container {
+    background-color: #FFFBE9;
+    max-width: 30rem;
+    padding: 20px 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: #6D523D;
+    border: solid 1px #6D523D;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.form__container > h1 {
+    font-weight: 200;
+}
+
+.form__container > label {
+    font-weight: 100;
+}

@@ -39,6 +39,7 @@
     border: solid 1px #6D523D;
     border-radius: 10px;
     margin: 50px auto;
+    box-shadow: 5px 5px 5px gray;
 }
 
 .form__container > h1 {

@@ -17,7 +17,7 @@ export default function Signup() {
                         <label htmlFor="last">Last Name:</label>
                         <input type="text" id="last" name="last" />
                         <label htmlFor="email">Email:</label>
-                        <input type="text" id="email" name="email" />
+                        <input type="text" id="email" name="email" required/>
                         <label htmlFor="password">Password:</label>
                         <input type="text" id="password" name="password"/>
                         <button>Submit</button>
